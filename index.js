@@ -37,11 +37,17 @@ var {firstName, lastName} = person2;
 // console.log(firstName, lastName)
 
 
+
+
+// var [, , , d] = arr;
+
+// let name = "Pial";
+// name =" pial bh"
+
+// console.log(name);
 var arr = [5,4,3,23,1];
+var arr1 = [10,20,30,40];
 
-var [, , , d] = arr;
+const newArr = [0, ...arr, 100, ...arr1];
+console.log(newArr)
 
-let name = "Pial";
-name =" pial bh"
-
-console.log(name);

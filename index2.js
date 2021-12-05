@@ -76,7 +76,7 @@ const keys = Object.keys(person); // [name, age, title]
 // ]
 
 
-(function add(a){
-    console.log(a)
-})(2)
+// (function add(a){
+//     console.log(a)
+// })(2)
 // invoke
