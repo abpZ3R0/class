@@ -51,19 +51,19 @@
 
 
 const container = document.getElementById("hide");
-// container.style.display = "none";
+container.style.display = "none";
 
 const submitBtn = document.getElementById("submitButton");
 submitBtn.addEventListener("click", function(){
-    // container.style.display = "block";
-    // const text1 = document.getElementById("text1");
-    // text1.style.display = "none";
+    container.style.display = "block";
+    const text1 = document.getElementById("text1");
+    text1.style.display = "none";
 
-    const getInputText = document.getElementById("inputText");
-    const inputText = getInputText.value;
-    const price= document.getElementById("price1")
-    price.innerText = inputText
-    console.log(inputText)
+    // const getInputText = document.getElementById("inputText");
+    // const inputText = getInputText.value;
+    // const price= document.getElementById("price1")
+    // price.innerText = inputText
+    // console.log(inputText)
 
 
 })
